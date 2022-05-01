@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_reddit_clone
+    username: reddit-root
+    password: mysql
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: 0336cc781d21c1
+    password: 9df7e4018922a6
+    protocol: smtp
+
